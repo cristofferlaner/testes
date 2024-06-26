@@ -126,8 +126,7 @@ class ExemploSeleniumWebDriver(unittest.TestCase):
           print(" ")
           print(f"Produto selecionado: {elem_produto_titulo}\nÉ igual ao produto no carrinho: {elem_quarto_produto_carrinho.text}")
           print(" ")
-
-     
+ 
      def test_comprar(self):
           driver = self.driver
           driver.get("https://automationpratice.com.br/")
@@ -192,7 +191,6 @@ class ExemploSeleniumWebDriver(unittest.TestCase):
           print(" ")
           print(elem_sucesso.text)
           print(" ")
-
 
      def test_pesquisar_e_favoritar_produto(self):
           driver = self.driver
